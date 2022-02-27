@@ -1,20 +1,20 @@
 package com.Munigal.lab5;
 
-public class Rectangle3 extends GeometricObject{
+public class Rectangle2 extends GeometricObject{
     double width;
     double height;
 
-    public Rectangle3(){
+    public Rectangle2(){
 
     }
-    public Rectangle3(double width, double height) {
+    public Rectangle2(double width, double height) {
         this.width = width;
         this.height = height;
     }
-    public Rectangle3(String color,
-                     boolean filled,
-                     double width,
-                     double height){
+    public Rectangle2(String color,
+                      boolean filled,
+                      double width,
+                      double height){
         super(color,filled);
         this.width = width;
         this.height = height;
